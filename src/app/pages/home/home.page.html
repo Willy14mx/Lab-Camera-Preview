@@ -1,0 +1,55 @@
+<ion-header class="ion-no-border header-component" [translucent]="true">
+  <ion-toolbar  class="header-component">
+    <ion-title size="large">
+    Camera Preview
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content  [fullscreen]="true" class="section-component">
+
+<div class="centered-container area-animacion">
+  <img width="85%" class="camera-icon" src="../../../assets/images/bundle1.png" alt="">
+  <ng-lottie [options]="options" (animationCreated)="animationCreated($event)"></ng-lottie>
+
+  <ion-button style="z-index: 4;" class="open-camera-button" shape="round" expand="full">Open Camera</ion-button>
+  <ul class="cuadrados">
+    <li>
+    <div class="container">
+    </div>
+    </li>
+    <li>
+      <div class="container">
+      </div>
+      </li>
+      <li>
+        <div class="container">
+        </div>
+        </li>
+        <li>
+          <div class="container">
+          </div>
+          </li>
+          <li>
+            <div class="container">
+            </div>
+            </li>
+            <li>
+              <div class="container">
+              </div>
+              </li>
+              <li>
+                <div class="container">
+                </div>
+                </li>
+                <li>
+                  <div class="container">
+                  </div>
+                  </li>
+                  <li>
+                    <div class="container">
+                    </div>
+                    </li>
+                  </ul>
+                </div>
+</ion-content>

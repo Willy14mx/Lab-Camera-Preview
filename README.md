@@ -1,1 +1,1 @@
-# Lab-Camera-Preview
+# camera-preview-example
